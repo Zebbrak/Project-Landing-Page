@@ -1,0 +1,258 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, 
+h2 {
+    margin-bottom: 15px;
+}
+.navbar {
+    background: #1F2937;
+    color: #fff;
+    height: 60px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.navbar ul {
+    display: flex;
+    gap: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* NAV ABOVE */
+
+.header {
+    min-height: 400px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 1.2;
+    max-width: 400px;
+}
+
+.header img {
+    max-width: 420px;
+    padding: 10px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;    
+}
+
+.header p{
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.header .sign-up {
+    margin-top: 10px;
+    padding: 6px;
+    width: 100px;
+    background: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    
+}
+
+.container .empty-box {
+    min-width: 120px;
+    min-height: 120px;
+    border: 3px solid blue;
+    border-radius: 10%;
+    padding: 0;
+}
+
+.boxes h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: -25px;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 300px;
+}
+
+.boxes {
+    background-color: #fff;
+}
+
+.empty-box{
+    max-width: 125px;
+    min-width: 125px;
+    
+}
+
+.box > * {
+    padding: 10px 10px;
+    align-self: center;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+/* BOXES SECTION ABOVE */
+
+.review {
+    background-color: #E5E7EB;
+
+}
+
+.review .container {
+    min-height: 400px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .comment {
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
+
+.container .quote {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Review section Above */
+.action {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.action .container {
+    background: #3882F6;
+    min-width: 900px;
+    border-radius: 5px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #F9FAF8;
+    padding-left: 100px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.action h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.action .container p {
+    font-size: 18px;
+    width: 700px;
+}
+
+.container .button-sign{
+    display: flex;
+
+}
+
+.action button {
+    margin-top: 10px;
+    padding: 6px;
+    width: 100px;
+    height:30px;
+    background: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    align-self: center;
+    margin-left: 25%;
+    margin-right: 0;
+}
+
+/* Action Section, I can't center the button */
+
+
+.footer {
+    height: 60px;
+    background: #1F2937;
+    color: #fff;
+}
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    
+}
